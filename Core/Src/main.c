@@ -162,7 +162,7 @@ int main(void)
 
 #ifdef tc4
   uint32_t id1 = SCH_Add_Task(task1, 0, 1000);
-  uint32_t id2 = SCH_Add_Task(task2, 20, 2000);
+  uint32_t id2 = SCH_Add_Task(task2, 2000, 2000);
   uint32_t id3 = SCH_Add_Task(task3, 0, 3000);
   uint32_t id4 = SCH_Add_Task(task4, 1000, 5000);
   uint32_t id5 = SCH_Add_Task(task5, 8000, 8000);
